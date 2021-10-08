@@ -1,4 +1,12 @@
-const fetch = require("cross-fetch")
+/* INSTRUCTIONS *************************************************************************
+   This JavaScript is NOT meant to be run by the browser. This is meant to be run by Node.js on your terminal! So we will do a few things differently. Here is how we do it!
+
+        1. In this project directory on your terminal, run the command `npm install` in order to install this project's dependencies. In this case, the only external tool we require is a version of fetch() for making HTTP requests. (This is because fetch() is a browser feature and doesn't come built-in to Node.js.)
+        
+        2. Then, also in this project directory on your terminal, run the command `node main.js`, which will run this JavaScript file on the command-line.
+******************************************************************************************/
+
+const fetch = require("cross-fetch") // Here is how we are getting a version of fetch() in our code. We can do this here because I ran `npm install cross-fetch` within this project when I created it. Because I did that already, you won't have to. All you will have to do on your computer is run `npm install` in the project directory, as I said in Step 1 above.
 
 const paragraph = `The Mosaic web browser was released in 1993. As the first browser with a graphical user interface accessible to non-technical people, it played a prominent role in the rapid growth of the nascent World Wide Web. The lead developers of Mosaic then founded the Netscape corporation, which released a more polished browser, Netscape Navigator, in 1994. Navigator quickly became the most used browser.
 
